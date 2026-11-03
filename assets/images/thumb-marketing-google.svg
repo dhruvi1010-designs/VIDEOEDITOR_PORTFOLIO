@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="60%" stop-color="#1e1e26"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#mbg5)"/>
+  
+  <rect x="60" y="50" width="150" height="36" rx="18" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+  <text x="135" y="73" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">GOOGLE ADS</text>
+
+  <!-- Google Ads search metrics & keyword table -->
+  <g transform="translate(100, 130)">
+    <!-- Top metrics -->
+    <rect x="0" y="0" width="310" height="120" rx="12" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="25" y="40" fill="#a1a1aa" font-family="sans-serif" font-size="13">CONVERSION RATE</text>
+    <text x="25" y="85" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="700">6.82%</text>
+
+    <rect x="345" y="0" width="310" height="120" rx="12" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="370" y="40" fill="#a1a1aa" font-family="sans-serif" font-size="13">QUALITY SCORE</text>
+    <text x="370" y="85" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="700">9 / 10</text>
+
+    <rect x="690" y="0" width="310" height="120" rx="12" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="715" y="40" fill="#a1a1aa" font-family="sans-serif" font-size="13">HIGH-INTENT LEADS</text>
+    <text x="715" y="85" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="700">450+ MQLs</text>
+
+    <!-- Search ad preview mockup -->
+    <rect x="0" y="150" width="1000" height="280" rx="14" fill="#131316" stroke="#27272a" stroke-width="1"/>
+    <rect x="40" y="180" width="40" height="20" rx="4" fill="#27272a"/>
+    <text x="60" y="194" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">Ad</text>
+    <text x="95" y="195" fill="#a1a1aa" font-family="sans-serif" font-size="13">https://clientbrand.com/solutions</text>
+
+    <text x="40" y="240" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="700">Scale Your Brand Revenue with High-ROI Campaigns</text>
+    <text x="40" y="280" fill="#a1a1aa" font-family="sans-serif" font-size="15">Targeted Google Search &amp; Display ads tailored for maximum conversion efficiency and lowest CAC.</text>
+
+    <!-- Keyword pills -->
+    <rect x="40" y="325" width="160" height="34" rx="17" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <text x="120" y="347" fill="#d4d4d8" font-family="sans-serif" font-size="13" text-anchor="middle">[Exact Match Intent]</text>
+
+    <rect x="215" y="325" width="180" height="34" rx="17" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <text x="305" y="347" fill="#d4d4d8" font-family="sans-serif" font-size="13" text-anchor="middle">-Negative Keywords</text>
+
+    <rect x="410" y="325" width="190" height="34" rx="17" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <text x="505" y="347" fill="#d4d4d8" font-family="sans-serif" font-size="13" text-anchor="middle">Landing Page Optimized</text>
+  </g>
+
+  <text x="600" y="620" fill="#a1a1aa" font-family="sans-serif" font-size="16" text-anchor="middle">Google Search &bull; Display Network &bull; High Intent Keywords &bull; ROAS Optimization</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ytGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="40%" stop-color="#1c1106"/>
+      <stop offset="80%" stop-color="#0c0a09"/>
+      <stop offset="100%" stop-color="#2d1204"/>
+    </linearGradient>
+    <linearGradient id="amberGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#ytGrad4)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="200" height="34" rx="17" fill="#1c1917" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="205" y="22" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">DAVINCI RESOLVE GRADE</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#1c1917" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#fde68a" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">14:05:12</text>
+
+  <!-- Color Wheels & Cinematic Scopes Visual -->
+  <g transform="translate(200, 150)">
+    <rect x="0" y="0" width="880" height="300" rx="16" fill="#17120a" stroke="#d97706" stroke-width="2"/>
+
+    <!-- 3 DaVinci Resolve Color Wheels (Lift, Gamma, Gain) -->
+    <!-- Lift -->
+    <circle cx="180" cy="140" r="75" fill="#1f1608" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="180" cy="140" r="10" fill="#38bdf8"/>
+    <text x="180" y="250" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">LIFT [SHADOWS]</text>
+
+    <!-- Gamma -->
+    <circle cx="440" cy="140" r="75" fill="#1f1608" stroke="#34d399" stroke-width="3"/>
+    <circle cx="440" cy="140" r="10" fill="#34d399"/>
+    <text x="440" y="250" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">GAMMA [MIDTONES]</text>
+
+    <!-- Gain -->
+    <circle cx="700" cy="140" r="75" fill="#1f1608" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="700" cy="140" r="10" fill="#f59e0b"/>
+    <text x="700" y="250" fill="#f59e0b" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">GAIN [HIGHLIGHTS]</text>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 290)">
+    <circle cx="0" cy="0" r="62" fill="#17120a" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#amberGold)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#000000"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">CINEMATIC BRAND STORY &amp; MINI-DOC</text>
+  <text x="640" y="620" fill="#fbbf24" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">ATMOSPHERIC SOUNDSCAPE &bull; 3-WAY COLOR GRADE &bull; FILM GRAIN</text>
+</svg>

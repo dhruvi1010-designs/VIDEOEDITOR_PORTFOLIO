@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="60%" stop-color="#1b1c24"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#mbg4)"/>
+  
+  <rect x="60" y="50" width="220" height="36" rx="18" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+  <text x="170" y="73" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">SOCIAL MEDIA CONTENT</text>
+
+  <!-- Carousel cards stack visual -->
+  <g transform="translate(140, 130)">
+    <!-- Back card -->
+    <rect x="360" y="20" width="360" height="380" rx="14" fill="#1b1b22" stroke="#3f3f46" stroke-width="1" opacity="0.6"/>
+    <!-- Middle card -->
+    <rect x="260" y="40" width="360" height="380" rx="14" fill="#202028" stroke="#52525b" stroke-width="1" opacity="0.8"/>
+    <!-- Front card -->
+    <rect x="160" y="60" width="360" height="380" rx="14" fill="#18181c" stroke="#71717a" stroke-width="1.5"/>
+    <text x="200" y="120" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="600">SLIDE 01 / 07</text>
+    <text x="200" y="170" fill="#ffffff" font-family="sans-serif" font-size="26" font-weight="700">The 3-Second Hook</text>
+    <text x="200" y="210" fill="#ffffff" font-family="sans-serif" font-size="26" font-weight="700">Formula for Viral Edits</text>
+    <line x1="200" y1="240" x2="480" y2="240" stroke="#3f3f46" stroke-width="1"/>
+    <text x="200" y="280" fill="#a1a1aa" font-family="sans-serif" font-size="15">Visual disruption</text>
+    <text x="200" y="310" fill="#a1a1aa" font-family="sans-serif" font-size="15">Curiosity gap headline</text>
+    <text x="200" y="340" fill="#a1a1aa" font-family="sans-serif" font-size="15">Rhythm-synced audio</text>
+    
+    <!-- Swipe indicator -->
+    <rect x="380" y="380" width="100" height="32" rx="16" fill="#ffffff"/>
+    <text x="430" y="401" fill="#000000" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Swipe &rarr;</text>
+  </g>
+
+  <text x="600" y="620" fill="#a1a1aa" font-family="sans-serif" font-size="16" text-anchor="middle">High-Retention Carousels &bull; Visual Storytelling &bull; Copywriting</text>
+</svg>

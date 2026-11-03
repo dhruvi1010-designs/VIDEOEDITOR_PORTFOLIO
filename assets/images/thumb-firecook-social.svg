@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="igBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0b1c"/>
+      <stop offset="50%" stop-color="#120614"/>
+      <stop offset="100%" stop-color="#080309"/>
+    </linearGradient>
+    <linearGradient id="igGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f58529"/>
+      <stop offset="50%" stop-color="#dd2a7b"/>
+      <stop offset="100%" stop-color="#8134af"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#igBg)"/>
+
+  <!-- Instagram Professional Creator Dashboard Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="1080" height="60" rx="12" fill="#200d24" stroke="#4a1554" stroke-width="1.5"/>
+    <!-- IG Camera Logo -->
+    <rect x="25" y="14" width="32" height="32" rx="9" fill="url(#igGradient)"/>
+    <rect x="29" y="18" width="24" height="24" rx="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="41" cy="30" r="6" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="47" cy="23" r="1.5" fill="#ffffff"/>
+
+    <text x="70" y="36" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="800">Instagram Professional Dashboard</text>
+    <text x="350" y="36" fill="#9ca3af" font-family="-apple-system, sans-serif" font-size="14">&bull;</text>
+    <!-- Handle -->
+    <rect x="370" y="15" width="280" height="30" rx="15" fill="rgba(221, 42, 123, 0.15)" stroke="#dd2a7b" stroke-width="1"/>
+    <text x="510" y="35" fill="#f472b6" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Firecook Cooking Classes</text>
+
+    <!-- 30-Day Tag -->
+    <rect x="910" y="15" width="145" height="30" rx="6" fill="#2e1236" stroke="#6b21a8" stroke-width="1"/>
+    <text x="982" y="34" fill="#d8b4fe" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">LAST 30 DAYS</text>
+  </g>
+
+  <!-- Key Metrics Cards -->
+  <g transform="translate(60, 120)">
+    <!-- Metric 1: Accounts Reached -->
+    <rect x="0" y="0" width="340" height="135" rx="14" fill="#200d24" stroke="#dd2a7b" stroke-width="1.5"/>
+    <text x="25" y="38" fill="#f472b6" font-family="sans-serif" font-size="13" font-weight="700">ACCOUNTS REACHED</text>
+    <text x="25" y="88" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="800">452.8K</text>
+    <text x="200" y="84" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">&#9650; +324%</text>
+    <text x="25" y="115" fill="#9ca3af" font-family="sans-serif" font-size="12">Organic Food Reels &amp; Stories</text>
+
+    <!-- Metric 2: Content Interactions -->
+    <rect x="370" y="0" width="340" height="135" rx="14" fill="#200d24" stroke="#f58529" stroke-width="1.5"/>
+    <text x="395" y="38" fill="#fba759" font-family="sans-serif" font-size="13" font-weight="700">CONTENT INTERACTIONS</text>
+    <text x="395" y="88" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="800">68.4K</text>
+    <text x="560" y="84" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">&#9650; +240%</text>
+    <text x="395" y="115" fill="#9ca3af" font-family="sans-serif" font-size="12">Saves, Recipe Shares &amp; Comments</text>
+
+    <!-- Metric 3: Profile Activity / Inquiries -->
+    <rect x="740" y="0" width="340" height="135" rx="14" fill="#200d24" stroke="#8134af" stroke-width="1.5"/>
+    <text x="765" y="38" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="700">PROFILE VISITS &amp; DM LEADS</text>
+    <text x="765" y="88" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="800">28.9K</text>
+    <text x="935" y="84" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">&#9650; High Intent</text>
+    <text x="765" y="115" fill="#9ca3af" font-family="sans-serif" font-size="12">Course Inquiries via WhatsApp/Bio</text>
+  </g>
+
+  <!-- Detailed Growth Breakdown & Top Performing Reels Showcase -->
+  <g transform="translate(60, 280)">
+    <rect x="0" y="0" width="1080" height="350" rx="14" fill="#160818" stroke="#3b1542" stroke-width="1.5"/>
+
+    <!-- Left: Content Distribution Graph -->
+    <g transform="translate(30, 25)">
+      <text x="0" y="20" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="800">Reach Distribution by Format</text>
+      
+      <!-- Reels Bar -->
+      <text x="0" y="65" fill="#e5e7eb" font-family="sans-serif" font-size="13" font-weight="600">Viral Cooking Reels (9:16)</text>
+      <rect x="0" y="75" width="460" height="28" rx="6" fill="#250d29"/>
+      <rect x="0" y="75" width="380" height="28" rx="6" fill="url(#igGradient)"/>
+      <text x="395" y="94" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">82.5% (373K)</text>
+
+      <!-- Carousels Bar -->
+      <text x="0" y="130" fill="#e5e7eb" font-family="sans-serif" font-size="13" font-weight="600">Step-by-Step Recipe Carousels</text>
+      <rect x="0" y="140" width="460" height="28" rx="6" fill="#250d29"/>
+      <rect x="0" y="140" width="240" height="28" rx="6" fill="#f58529"/>
+      <text x="255" y="159" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">12.5% (56K)</text>
+
+      <!-- Stories Bar -->
+      <text x="0" y="195" fill="#e5e7eb" font-family="sans-serif" font-size="13" font-weight="600">Daily Class Stories &amp; Student Q&amp;A</text>
+      <rect x="0" y="205" width="460" height="28" rx="6" fill="#250d29"/>
+      <rect x="0" y="205" width="120" height="28" rx="6" fill="#8134af"/>
+      <text x="135" y="224" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">5.0% (23K)</text>
+
+      <!-- Growth Summary -->
+      <rect x="0" y="250" width="460" height="48" rx="8" fill="#200d24" stroke="#4a1554" stroke-width="1"/>
+      <text x="20" y="280" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700">&#10004; Managed by Dhruvi: 100% On-Time Scheduled Execution</text>
+    </g>
+
+    <!-- Right: Top Performing Posts Grid -->
+    <g transform="translate(540, 25)">
+      <text x="0" y="20" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="800">Top Performing Culinary Posts</text>
+
+      <!-- Post 1 -->
+      <rect x="0" y="45" width="500" height="75" rx="10" fill="#200d24" stroke="#4a1554" stroke-width="1"/>
+      <rect x="15" y="55" width="45" height="55" rx="6" fill="#4a1554"/>
+      <text x="37" y="88" fill="#ffffff" font-family="sans-serif" font-size="18" text-anchor="middle">&#127859;</text>
+      <text x="75" y="75" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Crispy Chakri Bhajiya Reel</text>
+      <text x="75" y="95" fill="#9ca3af" font-family="sans-serif" font-size="12">148K Views &bull; 14.2K Saves &bull; 850+ Inquiries</text>
+      <rect x="410" y="65" width="75" height="26" rx="13" fill="#10b981"/>
+      <text x="447" y="82" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">VIRAL</text>
+
+      <!-- Post 2 -->
+      <rect x="0" y="130" width="500" height="75" rx="10" fill="#200d24" stroke="#4a1554" stroke-width="1"/>
+      <rect x="15" y="140" width="45" height="55" rx="6" fill="#4a1554"/>
+      <text x="37" y="173" fill="#ffffff" font-family="sans-serif" font-size="18" text-anchor="middle">&#129367;</text>
+      <text x="75" y="160" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Dhosa Tava Seasoning Masterclass</text>
+      <text x="75" y="180" fill="#9ca3af" font-family="sans-serif" font-size="12">112K Views &bull; 9.8K Saves &bull; 520+ Inquiries</text>
+      <rect x="410" y="150" width="75" height="26" rx="13" fill="#10b981"/>
+      <text x="447" y="167" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">VIRAL</text>
+
+      <!-- Post 3 -->
+      <rect x="0" y="215" width="500" height="75" rx="10" fill="#200d24" stroke="#4a1554" stroke-width="1"/>
+      <rect x="15" y="225" width="45" height="55" rx="6" fill="#4a1554"/>
+      <text x="37" y="258" fill="#ffffff" font-family="sans-serif" font-size="18" text-anchor="middle">&#127856;</text>
+      <text x="75" y="245" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Baking Workshop Batch Announcement</text>
+      <text x="75" y="265" fill="#9ca3af" font-family="sans-serif" font-size="12">Carousel &bull; 85 Seats Filled in 48 Hours</text>
+      <rect x="410" y="235" width="75" height="26" rx="13" fill="#f59e0b"/>
+      <text x="447" y="252" fill="#000000" font-family="sans-serif" font-size="11" font-weight="800" text-anchor="middle">HOUSEFULL</text>
+    </g>
+  </g>
+</svg>
+

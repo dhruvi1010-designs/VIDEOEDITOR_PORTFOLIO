@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="othGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#061f1c"/>
+    </linearGradient>
+    <linearGradient id="eventTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#othGrad2)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="190" height="34" rx="17" fill="#064e3b" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text x="200" y="22" fill="#99f6e4" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">EVENT AFTERMOVIE 4K</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#064e3b" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#99f6e4" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">02:15:00</text>
+
+  <!-- Laser / Stage lights -->
+  <g transform="translate(180, 140)">
+    <line x1="50" y1="280" x2="850" y2="20" stroke="#2dd4bf" stroke-width="4" opacity="0.6"/>
+    <line x1="120" y1="20" x2="800" y2="290" stroke="#a7f3d0" stroke-width="3" opacity="0.5"/>
+    <circle cx="460" cy="150" r="130" fill="#047857" opacity="0.3"/>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 300)">
+    <circle cx="0" cy="0" r="62" fill="#022c22" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#eventTeal)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#000000"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">ANNUAL SUMMIT &bull; EVENT AFTERMOVIE</text>
+  <text x="640" y="620" fill="#99f6e4" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">MULTI-CAM COVERAGE &bull; BEAT-SYNCED MONTAGE &bull; STAGE LIGHTING GRADE</text>
+</svg>

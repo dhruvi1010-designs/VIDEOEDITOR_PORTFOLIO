@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="60%" stop-color="#1b1b22"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#mbg1)"/>
+  
+  <rect x="60" y="50" width="130" height="36" rx="18" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+  <text x="125" y="73" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">META ADS</text>
+
+  <!-- Metric dashboard cards -->
+  <g transform="translate(100, 130)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="300" height="150" rx="14" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="30" y="45" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="500">AVERAGE ROAS</text>
+    <text x="30" y="105" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="700">4.8x</text>
+    <text x="170" y="102" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="600">&#9650; +142%</text>
+
+    <!-- Metric 2 -->
+    <rect x="340" y="0" width="300" height="150" rx="14" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="370" y="45" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="500">CLICK-THROUGH RATE</text>
+    <text x="370" y="105" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="700">3.45%</text>
+    <text x="540" y="102" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="600">&#9650; High Intent</text>
+
+    <!-- Metric 3 -->
+    <rect x="680" y="0" width="320" height="150" rx="14" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    <text x="710" y="45" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="500">COST PER ACQUISITION</text>
+    <text x="710" y="105" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="700">-38%</text>
+    <text x="880" y="102" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="600">Reduced CPA</text>
+
+    <!-- Chart graph visual -->
+    <rect x="0" y="180" width="1000" height="260" rx="14" fill="#131316" stroke="#27272a" stroke-width="1"/>
+    <!-- Grid -->
+    <line x1="40" y1="240" x2="960" y2="240" stroke="#27272a" stroke-width="1"/>
+    <line x1="40" y1="310" x2="960" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="40" y1="380" x2="960" y2="380" stroke="#27272a" stroke-width="1"/>
+    <!-- Growth curve -->
+    <path d="M60 380 Q 250 360, 400 300 T 700 230 T 940 210" fill="none" stroke="#ffffff" stroke-width="3.5"/>
+    <circle cx="940" cy="210" r="6" fill="#ffffff"/>
+  </g>
+
+  <text x="600" y="620" fill="#a1a1aa" font-family="sans-serif" font-size="16" text-anchor="middle">Meta Ads Manager &bull; Creative A/B Testing &bull; Retargeting Funnels</text>
+</svg>

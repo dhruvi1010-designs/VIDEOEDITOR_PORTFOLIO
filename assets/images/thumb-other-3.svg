@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="othGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="motionIndigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#othGrad3)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="220" height="34" rx="17" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+    <text x="215" y="22" fill="#c7d2fe" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">2D MOTION GRAPHICS 60FPS</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#c7d2fe" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">01:00:00</text>
+
+  <!-- 3D / Isometric vector cards -->
+  <g transform="translate(260, 140)">
+    <rect x="60" y="40" width="300" height="190" rx="12" fill="#2e1065" stroke="#a855f7" stroke-width="2"/>
+    <rect x="400" y="90" width="300" height="190" rx="12" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+    <line x1="360" y1="135" x2="400" y2="185" stroke="#c084fc" stroke-width="3" stroke-dasharray="6 6"/>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 290)">
+    <circle cx="0" cy="0" r="62" fill="#1e1b4b" stroke="#818cf8" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#motionIndigo)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#ffffff"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">SAAS PRODUCT DEMO &bull; 2D MOTION GRAPHICS</text>
+  <text x="640" y="620" fill="#c7d2fe" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">UI ANIMATION &bull; AFTER EFFECTS VECTOR RIGS &bull; SOUND DESIGN</text>
+</svg>

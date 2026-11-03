@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="othGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="50%" stop-color="#1e1035"/>
+      <stop offset="100%" stop-color="#090514"/>
+    </linearGradient>
+    <linearGradient id="neonFuchsia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#othGrad1)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="200" height="34" rx="17" fill="#18181b" stroke="#d946ef" stroke-width="1.5"/>
+    <text x="205" y="22" fill="#f0abfc" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">COMMERCIAL AD 4K</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#f0abfc" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">00:45:00</text>
+
+  <!-- Dynamic angled commercial shapes -->
+  <g transform="translate(260, 140)">
+    <polygon points="120,40 680,10 580,290 20,310" fill="#240e42" stroke="#d946ef" stroke-width="2.5"/>
+    <circle cx="380" cy="160" r="110" fill="#4a044e" opacity="0.6"/>
+    <line x1="100" y1="200" x2="600" y2="100" stroke="#f0abfc" stroke-width="3" stroke-dasharray="10 10"/>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 300)">
+    <circle cx="0" cy="0" r="62" fill="#1e1035" stroke="#f0abfc" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#neonFuchsia)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#ffffff"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">BRAND COMMERCIAL &bull; HIGH-IMPACT PROMO</text>
+  <text x="640" y="620" fill="#f0abfc" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">FAST CUTS &bull; SFX HEAVY &bull; SOUND DESIGN &bull; MOTION TYPOGRAPHY</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ytGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1035"/>
+      <stop offset="40%" stop-color="#0f0c20"/>
+      <stop offset="80%" stop-color="#14092b"/>
+      <stop offset="100%" stop-color="#2a0845"/>
+    </linearGradient>
+    <linearGradient id="pPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="vCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="vAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#ytGrad1)"/>
+
+  <!-- Top Badges -->
+  <g transform="translate(60, 45)">
+    <!-- REC Badge -->
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <!-- 4K 16:9 Badge -->
+    <rect x="105" y="0" width="160" height="34" rx="17" fill="#18181b" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="185" y="22" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">4K UHD &bull; 16:9 WIDE</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#f4f4f5" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">12:40:15</text>
+
+  <!-- Video Editor Multi-Track Timeline Architecture Visual -->
+  <g transform="translate(140, 160)">
+    <!-- Timeline Box -->
+    <rect x="0" y="0" width="1000" height="330" rx="16" fill="#0d0a17" stroke="#8b5cf6" stroke-width="2"/>
+    
+    <!-- Header Track Info -->
+    <rect x="0" y="0" width="1000" height="42" rx="16 16 0 0" fill="#171226"/>
+    <text x="30" y="27" fill="#c084fc" font-family="sans-serif" font-size="14" font-weight="700">SEQUENCE: TECH_DOC_FINAL_CUT_4K</text>
+    <text x="960" y="27" fill="#a855f7" font-family="monospace" font-size="13" font-weight="700" text-anchor="end">FPS: 59.94 &bull; 3840x2160</text>
+    <line x1="0" y1="42" x2="1000" y2="42" stroke="#2e1065" stroke-width="1.5"/>
+
+    <!-- Track V2: Motion Graphics / B-Roll -->
+    <rect x="30" y="60" width="60" height="36" rx="4" fill="#2e1065"/>
+    <text x="60" y="83" fill="#c084fc" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">V2</text>
+    <rect x="110" y="60" width="220" height="36" rx="6" fill="url(#pPurple)"/>
+    <text x="220" y="83" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">B-Roll Cut 01</text>
+    <rect x="350" y="60" width="340" height="36" rx="6" fill="url(#vCyan)"/>
+    <text x="520" y="83" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">Motion Graphics &bull; Kinetic Intro</text>
+    <rect x="710" y="60" width="260" height="36" rx="6" fill="url(#pPurple)"/>
+    <text x="840" y="83" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">Callouts Overlay</text>
+
+    <!-- Track V1: Main A-Roll -->
+    <rect x="30" y="110" width="60" height="42" rx="4" fill="#1e1b4b"/>
+    <text x="60" y="136" fill="#818cf8" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">V1</text>
+    <rect x="110" y="110" width="460" height="42" rx="6" fill="#312e81"/>
+    <text x="340" y="136" fill="#e0e7ff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">A-ROLL MAIN NARRATIVE [4K PRORES]</text>
+    <rect x="580" y="110" width="390" height="42" rx="6" fill="#3730a3"/>
+    <text x="775" y="136" fill="#e0e7ff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">INTERVIEW PERSPECTIVE B</text>
+
+    <!-- Track A1: Dialogue Audio -->
+    <rect x="30" y="165" width="60" height="36" rx="4" fill="#064e3b"/>
+    <text x="60" y="188" fill="#34d399" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">A1</text>
+    <rect x="110" y="165" width="860" height="36" rx="6" fill="#047857"/>
+    <text x="540" y="188" fill="#ecfdf5" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">VOCAL DIALOGUE [POLISHED &amp; EQ BALANCED]</text>
+
+    <!-- Track A2: Sound Effects & Cinematic Score -->
+    <rect x="30" y="215" width="60" height="36" rx="4" fill="#78350f"/>
+    <text x="60" y="238" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">A2</text>
+    <rect x="110" y="215" width="280" height="36" rx="6" fill="url(#vAmber)"/>
+    <text x="250" y="238" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">CINEMATIC RISER &amp; WHOOSH</text>
+    <rect x="410" y="215" width="560" height="36" rx="6" fill="#b45309"/>
+    <text x="690" y="238" fill="#fef3c7" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">ATMOSPHERIC AMBIENCE SCORE</text>
+
+    <!-- Glowing Playhead Scrubber Line -->
+    <line x1="510" y1="42" x2="510" y2="300" stroke="#f43f5e" stroke-width="3"/>
+    <polygon points="500,42 520,42 510,60" fill="#f43f5e"/>
+  </g>
+
+  <!-- Central Vibrant Play Button -->
+  <g transform="translate(640, 325)">
+    <circle cx="0" cy="0" r="62" fill="#0f0c20" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#pPurple)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#ffffff"/>
+  </g>
+
+  <!-- Overlay Titles -->
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">TECH DOCUMENTARY &bull; STORYTELLING &amp; PACING</text>
+  <text x="640" y="620" fill="#c084fc" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">FULL TIMELINE EDIT &bull; SOUND DESIGN &bull; MOTION CALLOUTS</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="60%" stop-color="#191924"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#mbg3)"/>
+  
+  <rect x="60" y="50" width="260" height="36" rx="18" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+  <text x="190" y="73" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">SOCIAL MEDIA MANAGEMENT</text>
+
+  <!-- Calendar & Workflow UI mockup -->
+  <g transform="translate(100, 130)">
+    <rect x="0" y="0" width="1000" height="420" rx="14" fill="#18181c" stroke="#3f3f46" stroke-width="1"/>
+    
+    <!-- Week headers -->
+    <rect x="40" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="100" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">MON</text>
+
+    <rect x="180" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="240" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">TUE</text>
+
+    <rect x="320" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="380" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">WED</text>
+
+    <rect x="460" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="520" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">THU</text>
+
+    <rect x="600" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="660" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">FRI</text>
+
+    <rect x="740" y="30" width="120" height="40" rx="8" fill="#27272a"/>
+    <text x="800" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">SAT</text>
+
+    <rect x="880" y="30" width="80" height="40" rx="8" fill="#27272a"/>
+    <text x="920" y="55" fill="#f4f4f5" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle">SUN</text>
+
+    <!-- Content Schedule Cards -->
+    <rect x="40" y="90" width="120" height="130" rx="8" fill="#22222a" stroke="#3f3f46" stroke-width="1"/>
+    <text x="50" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">Reel Post</text>
+    <text x="50" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="11">Hook Video</text>
+    <rect x="50" y="160" width="55" height="18" rx="4" fill="#3f3f46"/>
+    <text x="77" y="173" fill="#ffffff" font-family="sans-serif" font-size="10" text-anchor="middle">Scheduled</text>
+
+    <rect x="180" y="90" width="120" height="130" rx="8" fill="#22222a" stroke="#3f3f46" stroke-width="1"/>
+    <text x="190" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">Carousel</text>
+    <text x="190" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="11">Educational</text>
+    <rect x="190" y="160" width="55" height="18" rx="4" fill="#3f3f46"/>
+    <text x="217" y="173" fill="#ffffff" font-family="sans-serif" font-size="10" text-anchor="middle">Scheduled</text>
+
+    <rect x="320" y="90" width="120" height="130" rx="8" fill="#2a2a35" stroke="#71717a" stroke-width="1"/>
+    <text x="330" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">Story Series</text>
+    <text x="330" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="11">Interactive Polls</text>
+    <rect x="330" y="160" width="50" height="18" rx="4" fill="#ffffff"/>
+    <text x="355" y="173" fill="#000000" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Live</text>
+
+    <rect x="460" y="90" width="120" height="130" rx="8" fill="#22222a" stroke="#3f3f46" stroke-width="1"/>
+    <text x="470" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">Reel Post</text>
+    <text x="470" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="11">Trend Audio</text>
+
+    <rect x="600" y="90" width="120" height="130" rx="8" fill="#22222a" stroke="#3f3f46" stroke-width="1"/>
+    <text x="610" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700">YouTube Long</text>
+    <text x="610" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="11">Full Breakdown</text>
+
+    <!-- Analytics summary banner below -->
+    <rect x="40" y="250" width="920" height="130" rx="10" fill="#121215" stroke="#27272a" stroke-width="1"/>
+    <text x="70" y="290" fill="#a1a1aa" font-family="sans-serif" font-size="14">MONTHLY CONSISTENCY</text>
+    <text x="70" y="340" fill="#ffffff" font-family="sans-serif" font-size="32" font-weight="700">100% On-Time Execution &bull; 30+ Assets/Mo</text>
+  </g>
+
+  <text x="600" y="620" fill="#a1a1aa" font-family="sans-serif" font-size="16" text-anchor="middle">Content Calendars &bull; Community Management &bull; Cross-Platform Publishing</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ytGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#311042"/>
+      <stop offset="50%" stop-color="#14092b"/>
+      <stop offset="100%" stop-color="#0b0819"/>
+    </linearGradient>
+    <linearGradient id="rosePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#ytGrad3)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="180" height="34" rx="17" fill="#18181b" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="195" y="22" fill="#f472b6" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">MULTI-CAM 4K PODCAST</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#18181b" stroke="#3f3f46" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#f472b6" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">45:20:00</text>
+
+  <!-- Multi-camera split view -->
+  <g transform="translate(180, 140)">
+    <!-- Cam A -->
+    <rect x="0" y="0" width="440" height="300" rx="14" fill="#1c1033" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="220" cy="120" r="50" fill="#2e1065"/>
+    <path d="M 160 220 C 160 170, 280 170, 280 220" fill="#2e1065"/>
+    <!-- Mic icon -->
+    <rect x="212" y="100" width="16" height="30" rx="8" fill="#ec4899"/>
+    <rect x="20" y="240" width="120" height="26" rx="6" fill="#8b5cf6"/>
+    <text x="80" y="258" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">HOST [CAM A]</text>
+
+    <!-- Cam B -->
+    <rect x="480" y="0" width="440" height="300" rx="14" fill="#1c1033" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="700" cy="120" r="50" fill="#4c0519"/>
+    <path d="M 640 220 C 640 170, 760 170, 760 220" fill="#4c0519"/>
+    <!-- Mic icon -->
+    <rect x="692" y="100" width="16" height="30" rx="8" fill="#f43f5e"/>
+    <rect x="500" y="240" width="120" height="26" rx="6" fill="#ec4899"/>
+    <text x="560" y="258" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">GUEST [CAM B]</text>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 290)">
+    <circle cx="0" cy="0" r="62" fill="#18181b" stroke="#f43f5e" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#rosePurple)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#ffffff"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">PODCAST &amp; INTERVIEW MULTI-CAM EDIT</text>
+  <text x="640" y="620" fill="#f472b6" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">AUDIO MASTERING &bull; SWITCHER CUTS &bull; HOOK TEASERS</text>
+</svg>

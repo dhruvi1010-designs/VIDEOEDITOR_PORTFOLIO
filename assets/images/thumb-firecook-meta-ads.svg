@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fcMetaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180c10"/>
+      <stop offset="50%" stop-color="#12080a"/>
+      <stop offset="100%" stop-color="#0a0507"/>
+    </linearGradient>
+    <linearGradient id="metaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0081fb"/>
+      <stop offset="100%" stop-color="#0064e0"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#fcMetaBg)"/>
+
+  <!-- Top App Header: Meta Ads Manager -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="1080" height="56" rx="10" fill="#1c0e12" stroke="#3b1d24" stroke-width="1.5"/>
+    <!-- Meta logo mark -->
+    <path d="M 25 28 C 25 22, 33 22, 37 28 C 41 34, 49 34, 49 28 C 49 22, 41 22, 37 28 C 33 34, 25 34, 25 28 Z" fill="none" stroke="#0081fb" stroke-width="3"/>
+    <text x="65" y="34" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="16" font-weight="800">Meta Ads Manager</text>
+    <text x="235" y="34" fill="#9ca3af" font-family="-apple-system, sans-serif" font-size="14">&bull;</text>
+    <!-- Client Tag -->
+    <rect x="255" y="14" width="260" height="28" rx="14" fill="rgba(245, 158, 11, 0.15)" stroke="#f59e0b" stroke-width="1"/>
+    <text x="385" y="32" fill="#fde047" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Firecook Cooking Classes &bull; Live</text>
+
+    <rect x="940" y="14" width="115" height="28" rx="6" fill="#10b981"/>
+    <circle cx="955" cy="28" r="4" fill="#ffffff"/>
+    <text x="965" y="32" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">CAMPAIGN ACTIVE</text>
+  </g>
+
+  <!-- Metric KPI Cards -->
+  <g transform="translate(60, 115)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="250" height="120" rx="12" fill="#1c0f15" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="25" y="36" fill="#fda4af" font-family="sans-serif" font-size="12" font-weight="700">COURSE ROAS</text>
+    <text x="25" y="82" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="800">5.4x</text>
+    <text x="135" y="78" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700">&#9650; +185%</text>
+    <text x="25" y="104" fill="#9ca3af" font-family="sans-serif" font-size="11">Student Admissions Return</text>
+
+    <!-- KPI 2 -->
+    <rect x="275" y="0" width="250" height="120" rx="12" fill="#1c0f15" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="300" y="36" fill="#fde047" font-family="sans-serif" font-size="12" font-weight="700">TOTAL WORKSHOP LEADS</text>
+    <text x="300" y="82" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="800">1,450+</text>
+    <text x="300" y="104" fill="#9ca3af" font-family="sans-serif" font-size="11">Batch Inquiries Received</text>
+
+    <!-- KPI 3 -->
+    <rect x="550" y="0" width="250" height="120" rx="12" fill="#1c0f15" stroke="#0081fb" stroke-width="1.5"/>
+    <text x="575" y="36" fill="#93c5fd" font-family="sans-serif" font-size="12" font-weight="700">COST PER STUDENT LEAD</text>
+    <text x="575" y="82" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="800">&#8377;42.50</text>
+    <text x="575" y="104" fill="#34d399" font-family="sans-serif" font-size="11">&#9660; 42% Lower than avg</text>
+
+    <!-- KPI 4 -->
+    <rect x="825" y="0" width="255" height="120" rx="12" fill="#1c0f15" stroke="#10b981" stroke-width="1.5"/>
+    <text x="850" y="36" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="700">CLICK-THROUGH RATE</text>
+    <text x="850" y="82" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="800">3.82%</text>
+    <text x="850" y="104" fill="#9ca3af" font-family="sans-serif" font-size="11">High-Intent Foodies &amp; Bakers</text>
+  </g>
+
+  <!-- Realistic Campaign Rows Table -->
+  <g transform="translate(60, 255)">
+    <rect x="0" y="0" width="1080" height="375" rx="14" fill="#140a0e" stroke="#31141b" stroke-width="1.5"/>
+
+    <!-- Table Header -->
+    <rect x="0" y="0" width="1080" height="45" rx="14 14 0 0" fill="#1e0f14"/>
+    <text x="30" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">CAMPAIGN NAME</text>
+    <text x="440" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">STATUS</text>
+    <text x="560" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">BUDGET</text>
+    <text x="700" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">RESULTS (LEADS)</text>
+    <text x="870" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">COST / LEAD</text>
+    <text x="1000" y="28" fill="#9ca3af" font-family="sans-serif" font-size="12" font-weight="700">ROAS</text>
+    <line x1="0" y1="45" x2="1080" y2="45" stroke="#31141b" stroke-width="1"/>
+
+    <!-- Row 1: Firecook Cooking Workshop -->
+    <g transform="translate(0, 45)">
+      <rect x="0" y="0" width="1080" height="75" fill="#180b10"/>
+      <circle cx="20" cy="37" r="5" fill="#10b981"/>
+      <text x="35" y="32" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Firecook_Weekend_Workshop_Admissions_VideoAd</text>
+      <text x="35" y="52" fill="#9ca3af" font-family="sans-serif" font-size="11">Creative: Chakri Bhajiya &amp; Dhosa Fast-Cuts &bull; Surat &amp; Gujarat 15km</text>
+      <rect x="435" y="24" width="75" height="26" rx="13" fill="rgba(16, 185, 129, 0.2)"/>
+      <text x="472" y="41" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">ACTIVE</text>
+      <text x="560" y="42" fill="#e5e7eb" font-family="sans-serif" font-size="13">&#8377;850/day</text>
+      <text x="700" y="42" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">620 Leads</text>
+      <text x="870" y="42" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700">&#8377;38.20</text>
+      <text x="1000" y="42" fill="#fde047" font-family="sans-serif" font-size="15" font-weight="800">6.1x</text>
+      <line x1="0" y1="75" x2="1080" y2="75" stroke="#2a1218" stroke-width="1"/>
+    </g>
+
+    <!-- Row 2: Retargeting Profile Visitors -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="1080" height="75" fill="#140a0e"/>
+      <circle cx="20" cy="37" r="5" fill="#10b981"/>
+      <text x="35" y="32" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Firecook_Retargeting_Instagram_Engagers_30Days</text>
+      <text x="35" y="52" fill="#9ca3af" font-family="sans-serif" font-size="11">Custom Audience: Engaged with IG Reels / Saved Recipes</text>
+      <rect x="435" y="24" width="75" height="26" rx="13" fill="rgba(16, 185, 129, 0.2)"/>
+      <text x="472" y="41" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">ACTIVE</text>
+      <text x="560" y="42" fill="#e5e7eb" font-family="sans-serif" font-size="13">&#8377;500/day</text>
+      <text x="700" y="42" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">485 Leads</text>
+      <text x="870" y="42" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700">&#8377;31.10</text>
+      <text x="1000" y="42" fill="#fde047" font-family="sans-serif" font-size="15" font-weight="800">5.8x</text>
+      <line x1="0" y1="75" x2="1080" y2="75" stroke="#2a1218" stroke-width="1"/>
+    </g>
+
+    <!-- Row 3: Chef Asha Koshiya Masterclass Promo -->
+    <g transform="translate(0, 195)">
+      <rect x="0" y="0" width="1080" height="75" fill="#180b10"/>
+      <circle cx="20" cy="37" r="5" fill="#10b981"/>
+      <text x="35" y="32" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Firecook_Chef_Asha_Koshiya_Masterclass_Ad</text>
+      <text x="35" y="52" fill="#9ca3af" font-family="sans-serif" font-size="11">Objective: Instant WhatsApp Admission Inquiries &bull; Carousel + Reel</text>
+      <rect x="435" y="24" width="75" height="26" rx="13" fill="rgba(16, 185, 129, 0.2)"/>
+      <text x="472" y="41" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">ACTIVE</text>
+      <text x="560" y="42" fill="#e5e7eb" font-family="sans-serif" font-size="13">&#8377;600/day</text>
+      <text x="700" y="42" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">345 Leads</text>
+      <text x="870" y="42" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="700">&#8377;44.80</text>
+      <text x="1000" y="42" fill="#fde047" font-family="sans-serif" font-size="15" font-weight="800">4.9x</text>
+    </g>
+
+    <!-- Summary strip at bottom -->
+    <rect x="0" y="270" width="1080" height="60" rx="0 0 14 14" fill="#241018"/>
+    <text x="30" y="305" fill="#fde047" font-family="sans-serif" font-size="13" font-weight="700">TOTAL ACCOUNT SPEND: &#8377;61,625</text>
+    <text x="400" y="305" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">TOTAL ADMISSIONS GENERATED: 1,450+ STUDENTS</text>
+    <text x="960" y="305" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="end">OVERALL ROAS: 5.4x</text>
+  </g>
+</svg>
+

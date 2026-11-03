@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ytGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="40%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#ytGrad2)"/>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="90" height="34" rx="17" fill="#ef4444"/>
+    <circle cx="18" cy="17" r="5" fill="#ffffff"/>
+    <text x="32" y="22" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="800">REC</text>
+
+    <rect x="105" y="0" width="160" height="34" rx="17" fill="#082f49" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="185" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">MASTERCLASS 16:9</text>
+  </g>
+
+  <rect x="1100" y="45" width="120" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="1160" y="67" fill="#38bdf8" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">18:15:00</text>
+
+  <!-- Explainer UI & Zoom callout illustration -->
+  <g transform="translate(180, 150)">
+    <rect x="0" y="0" width="920" height="340" rx="16" fill="#0b1329" stroke="#0284c7" stroke-width="2"/>
+    
+    <!-- Code/Software mock left -->
+    <rect x="30" y="30" width="400" height="280" rx="10" fill="#031024" stroke="#0369a1" stroke-width="1"/>
+    <rect x="50" y="50" width="140" height="14" rx="4" fill="#0284c7"/>
+    <rect x="50" y="80" width="340" height="10" rx="3" fill="#1e293b"/>
+    <rect x="50" y="105" width="280" height="10" rx="3" fill="#38bdf8" opacity="0.6"/>
+    <rect x="50" y="130" width="310" height="10" rx="3" fill="#1e293b"/>
+    <rect x="50" y="155" width="220" height="10" rx="3" fill="#38bdf8" opacity="0.6"/>
+
+    <!-- Kinetic infographics right -->
+    <rect x="460" y="30" width="430" height="280" rx="10" fill="#031024" stroke="#0369a1" stroke-width="1"/>
+    <!-- Animated growth curve -->
+    <path d="M 490 260 Q 600 240, 680 160 T 850 80" fill="none" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="850" cy="80" r="8" fill="#38bdf8"/>
+    <text x="680" y="270" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">KINETIC INFOGRAPHICS CALLOUT</text>
+  </g>
+
+  <!-- Play Button -->
+  <g transform="translate(640, 320)">
+    <circle cx="0" cy="0" r="62" fill="#031024" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="0" cy="0" r="48" fill="url(#cyanBlue)"/>
+    <polygon points="-10,-20 20,0 -10,20" fill="#ffffff"/>
+  </g>
+
+  <text x="640" y="580" fill="#ffffff" font-family="sans-serif" font-size="30" font-weight="800" text-anchor="middle">IN-DEPTH EXPLAINER &amp; MASTERCLASS</text>
+  <text x="640" y="620" fill="#38bdf8" font-family="sans-serif" font-size="18" font-weight="600" text-anchor="middle">DYNAMIC SCREEN ZOOM &bull; KINETIC CHARTS &bull; AFTER EFFECTS</text>
+</svg>
